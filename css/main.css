@@ -6,8 +6,7 @@
 }
 
 .header_menu {
-    background-color: rgb(223, 71, 16);
-    
+    background-color: orangered;    
     
 }
 
@@ -29,6 +28,19 @@
     list-style:none;
 }
 
+li.menuoptions__li {
+    background-color: #060636;
+    border-radius: 50px;
+    padding: 0.2rem;
+    width: 4.5rem;
+}
+
+a.table__ul {
+    color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
 .header__table {
     width: 100%;
 }
@@ -39,30 +51,32 @@
 }
 
 .menu--img {
-    width: 20px;
+    width: 21px;
     padding: 0;
-    margin: 0;
+    margin: 0.3rem 0 0 0;
     border: 0;
     
 }
 .section_name {
-    color:white;
+    color: #060636;
     display: flex;
     justify-content: center;
-    font-size:xxx-large;
+    font-size: xxx-large;
     text-transform: uppercase;
-    
-    
+    margin: 0;
+    background-color: orangered;
+    border-radius: 20px;
 }
 .section_greetings{
-    color: white;
+    color: #060636;
     display: flex;
     justify-content: center;
 }
 .section_description {
-    color: white;
+    color: #060636;
     display: flex;
     justify-content: center;
+    margin-left: 0.7rem;
 }
 
 img.section_profile {
@@ -70,7 +84,34 @@ img.section_profile {
     height: 300px;
     width: 300px;
 }
-td.table_image {
+.table_image {
     width: 300px;
-    padding: 1.5rem;
+    padding: 1.3rem;
+    background-color: orangered;
+    border-radius: 300px;
 }
+
+.section_td {
+    display: flex;
+    justify-content: center;
+    margin: 8rem;
+}
+
+table.section_table {
+    margin: 1rem 1rem 1rem 4.5rem;
+}
+table.sectio2_table {
+    margin: 1rem 10rem 1rem 10rem;
+    background-color: orangered;
+}
+
+ul.section2_ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+img.section2__imgs {
+    width: 70px;
+}
+
